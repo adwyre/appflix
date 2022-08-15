@@ -1,0 +1,20 @@
+.mid-bar {
+  height: 2.5rem;
+  top: 4rem;
+}
+
+@media (min-width: 500px) {
+  .mid-bar {
+    display: none;
+  }
+}
+
+.mid-bar ul {
+  list-style: none;
+  font-weight: 500;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  padding: 0;
+  margin: auto 1rem;
+}

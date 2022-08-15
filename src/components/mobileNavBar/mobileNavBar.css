@@ -1,0 +1,39 @@
+.mobile-nav {
+  background-color: rgb(10, 10, 10);
+  height: 5rem;
+  bottom: 0;
+  box-sizing: border-box;
+  padding-top: 10px;
+  justify-content: space-evenly;
+}
+
+@media (min-width: 500px){
+  .mobile-nav {
+    display: none;
+  }
+}
+
+.mobile-nav div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+
+#home {
+  margin: 0 0.5rem;
+}
+
+#games {
+  margin: 0 0.5rem;
+}
+
+
+.mobile-nav span {
+  font-size: 9px;
+  margin-top: 0.3rem;
+}
+
+.mobile-nav svg {
+  margin: 0 auto;
+}
