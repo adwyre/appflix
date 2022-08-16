@@ -1,5 +1,5 @@
 import './hero.css';
-import { symbols } from '../../utils';
+import { symbols } from '../../../utils';
 import AddButton from '../buttons/AddButton';
 import PlayButton from '../buttons/PlayButton';
 import InfoButton from '../buttons/InfoButton';

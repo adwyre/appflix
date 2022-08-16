@@ -1,5 +1,5 @@
 import './buttons.css';
-import { symbols } from '../../utils';
+import { symbols } from '../../../utils';
 
 const PlayButton = () => {
 

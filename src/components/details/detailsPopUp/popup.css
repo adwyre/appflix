@@ -1,5 +1,5 @@
 .popup-container {
-  display: none;
+  display: block;
   height: 100vh;
   width: 100vw;
   z-index: 11;
@@ -12,7 +12,7 @@
 
 @media (max-width: 500px) {
   .popup-container {
-    display: none;
+    display: flex;
     align-items: flex-end;
     background-color: transparent;
   }
@@ -43,6 +43,8 @@
   border-radius: 50%;
 }
 
+
+/* Hero Section */
 .popup .hero-container {
   width: 100%;
   height: 50vh;
@@ -87,6 +89,8 @@
   margin-top: -1.5rem;
 }
 
+
+/* Mobile Popup */
 .popup .mobile-wrapper {
   display: block;
 }
@@ -182,79 +186,6 @@
 .popup h2 {
   margin-left: 3.5rem;
   font-size: 1.5rem;
-}
-
-
-/* Info Buttons */
-.popup .info-buttons{
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  justify-content: space-around;
-}
-
-.popup .info-buttons .top-row{
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  justify-content: space-around;
-  margin-bottom: 0.5rem;
-}
-.popup .info-buttons .bottom-row{
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  justify-content: space-between;
-  border-top: 0.5px solid rgb(69, 69, 69);
-  margin-bottom: 1rem;
-}
-
-.popup .info-buttons .bottom-row div{
-  display: flex;
-  flex-direction: row;
-  align-content: center;
-}
-
-.popup .info-buttons .bottom-row p{
-  margin: auto 1rem auto auto;
-}
-
-.popup .info-buttons div{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-}
-
-.popup .info-buttons span{
-  margin: 0;
-  color: grey;
-  margin-top: 0.5rem;
-}
-
-.popup .info-buttons svg{
-  margin: auto;
-}
-
-@media (min-width: 500px) {
-  .popup .info-buttons{
-    display: none;
-  }
-}
-
-.info-buttons .download svg {
-  padding: 0.5rem;
-  background-color: rgb(51, 51, 51);
-  border-radius: 50%;
-}
-
-.info-buttons .share svg {
-  padding: 0.3rem;
-  background-color: rgb(51, 51, 51);
-  border-radius: 50%;
-  height: 2.3rem;
-  width: auto;
-  box-sizing: border-box;
 }
 
 

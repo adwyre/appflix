@@ -1,6 +1,6 @@
 import './top10.css';
 import '../browseRow/browseRow.css';
-import Poster from '../poster/Poster';
+import Poster from '../../poster/Poster';
 
 const Top10 = () => {
   const mockList = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];

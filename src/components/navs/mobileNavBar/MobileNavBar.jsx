@@ -1,5 +1,5 @@
 import './mobileNavBar.css';
-import { navIcons } from '../../utils';
+import { navIcons } from '../../../utils';
 
 const MobileNavBar = () => {
 

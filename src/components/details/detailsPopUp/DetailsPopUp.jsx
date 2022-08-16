@@ -1,12 +1,10 @@
 import './popup.css';
-import '../../index.css';
-import { exitIcon, symbols } from '../../utils';
-import Hero from '../hero/Hero';
+import '../../../index.css';
+import { exitIcon } from '../../../utils';
+import Hero from '../../mainComponents/hero/Hero';
 import ItemCard from '../itemCard/ItemCard';
-import Poster from '../poster/Poster';
-import AddButton from '../buttons/AddButton';
-import PlayButton from '../buttons/PlayButton';
-import InfoButton from '../buttons/InfoButton';
+import Poster from '../../poster/Poster';
+import MobileInfoButtons from '../mobileInfoButtons/MobileInfoButtons';
 
 const DetailsPopUp = () => {
   const mockItems = [0, 1, 2, 3, 4, 5, 6, 7]
@@ -43,30 +41,7 @@ const DetailsPopUp = () => {
               </div>
             </div>
           </div>
-          {/* Mobile Buttons */}
-          <div className='info-buttons'>
-            <div className='top-row'>
-              <PlayButton/>
-              <div className='download'>
-                {symbols.smallDown}
-                <span>Download</span>
-              </div>
-              <AddButton />
-              <div className='share'>
-                {symbols.smallShare}
-                <span>Share</span>
-              </div>
-            </div>
-            <div className='bottom-row'>
-              <div>
-                <InfoButton />
-                <p>Episodes & Info</p>
-              </div>
-              <div>
-                <p>{'>'}</p>
-              </div>
-            </div>
-          </div>
+          <MobileInfoButtons />
         </div>
         {/* More Like This Section */}
         <h2>More Like This</h2>
