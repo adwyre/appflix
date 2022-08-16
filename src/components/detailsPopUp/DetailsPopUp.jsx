@@ -31,7 +31,7 @@ const DetailsPopUp = () => {
                 <span>1h 30m</span>
               </div>
               <div className='description'>
-                <p>This is a description of the film. A short description of the film. This is a much longer description of the rest of the film.</p>
+                <p>Description description description description. Description description description. Description description description description description.</p>
               </div>
             </div>
             <div className="info-right">

@@ -22,7 +22,7 @@ const Hero = () => {
           <span>Category</span>
         </div>
         <div className='hero-description'>
-          <h3>This is a description of the film. A short description of the film. This is a much longer description of the rest of the film.</h3>
+          <h3>Description description description description. Description description description. Description description description description description.</h3>
         </div>
         <div className="hero-buttons">
           <AddButton />
