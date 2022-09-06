@@ -9,11 +9,15 @@ import MobileInfoButtons from '../mobileInfoButtons/MobileInfoButtons';
 const DetailsPopUp = () => {
   const mockItems = [0, 1, 2, 3, 4, 5, 6, 7]
 
+  const handleExit = () => {
+    document.getElementsByClassName("popup-container")[0].style.display = "none";
+  }
+
   return (
     <div className='popup-container'>
       <div className='popup'>
         <Hero />
-        <div className='exit-popup'>
+        <div className='exit-popup' onClick={handleExit}>
           {exitIcon}
         </div>
         {/* Info Section */}
