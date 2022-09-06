@@ -39,4 +39,5 @@
 .item-card .rating-group {
   display: flex;
   flex-direction: row;
+  margin-top: 1rem;
 }
