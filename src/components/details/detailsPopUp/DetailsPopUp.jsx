@@ -22,7 +22,7 @@ const DetailsPopUp = () => {
             <Poster />
             <div className="info-left">
               <h1>Title</h1>
-              <div className='nums'>
+              <div className='stats'>
                 <span className='match-text'>97% Match</span>
                 <span>2022</span>
                 <span className='rating'>PG-13</span>

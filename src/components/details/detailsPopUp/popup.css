@@ -116,7 +116,7 @@
   margin-right: 3rem;
 }
 
-.popup .nums {
+.popup .stats {
   display: flex;
   flex-direction: row;
   margin-bottom: 1rem;
@@ -134,7 +134,7 @@
   .popup .info .match-text {
     display: none;
   }
-  .popup .info .nums {
+  .popup .info .stats {
     margin-bottom: 0.5rem;
   }
   .popup .info span {
@@ -194,7 +194,7 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  padding: 0 3rem;
+  padding: 0 3rem 3rem 3rem;
 }
 
 @media (max-width: 500px) {
